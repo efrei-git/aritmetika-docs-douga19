@@ -5,5 +5,6 @@ nav:
   - Getting Started: 
     - Features: features/features.md
     - Core Functions: features/functions.md
+    - User Interface: features/user-interface.md
 
 theme: readthedocs
