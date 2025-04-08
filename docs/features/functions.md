@@ -28,7 +28,7 @@ def load_quotes(filename):
     return quotes
 ```
 
-### `random_quote(quotes)`
+#### `random_quote(quotes)`
 
 ```python
 def random_quote(quotes):
@@ -47,7 +47,7 @@ def random_quote(quotes):
     return random_quote
 ```
 
-### `print_quote(quote)`
+#### `print_quote(quote)`
 
 ```python
 def print_quote(quote):
@@ -82,7 +82,7 @@ def view_quotes(quotes):
         print_quote(quote)
 ```
 
-### `add_quote(quotes, filename)`
+#### `add_quote(quotes, filename)`
 
 ```python
 def add_quote(quotes, filename):
@@ -107,7 +107,7 @@ def add_quote(quotes, filename):
     print("Quote added successfully!")
 ```
 
-### `display_quotes(quotes, count)`
+#### `display_quotes(quotes, count)`
 
 ```python
 def display_quotes(quotes, count):
