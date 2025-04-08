@@ -8,4 +8,4 @@ Solutions de l'évaluation notée 2 du groupe [nom-groupe] à l'aide de MkDocs.
 
 ## URLs des dépôts
 
-- `initiateur` : [https://github.com/efrei-git/aritmetika-docs-douga19.git](https://github.com/efrei-git/aritmetika-docs-douga19.git)
+- `initiateur` : [https://github.com/efrei-git/quotes-docs-douga19.git](https://github.com/efrei-git/quotes-docs-douga19.git)
