@@ -62,8 +62,7 @@ def print_quote(quote):
     print_quote('This is a quote.')
     """
 print(quote)
-
-### `view_quotes(quotes)`
+```
 
 ```python
 def view_quotes(quotes):
