@@ -54,15 +54,15 @@
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#load_quotesfilename">load_quotes(filename)</a>
     </li>
+    <li class="toctree-l3"><a class="reference internal" href="#random_quotequotes">random_quote(quotes)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#print_quotequote">print_quote(quote)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#add_quotequotes-filename">add_quote(quotes, filename)</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#display_quotesquotes-count">display_quotes(quotes, count)</a>
+    </li>
         </ul>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#random_quotequotes">random_quote(quotes)</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#print_quotequote">print_quote(quote)</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#add_quotequotes-filename">add_quote(quotes, filename)</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#display_quotesquotes-count">display_quotes(quotes, count)</a>
     </li>
     </ul>
                   </li>
@@ -116,7 +116,7 @@
             quotes.append(line)
     return quotes
 </code></pre>
-<h3 id="random_quotequotes"><code>random_quote(quotes)</code></h3>
+<h4 id="random_quotequotes"><code>random_quote(quotes)</code></h4>
 <pre><code class="language-python">def random_quote(quotes):
     &quot;&quot;&quot;
     Returns a random quote from the provided list of quotes.
@@ -132,7 +132,7 @@
     random_quote = random.choice(quotes)
     return random_quote
 </code></pre>
-<h3 id="print_quotequote"><code>print_quote(quote)</code></h3>
+<h4 id="print_quotequote"><code>print_quote(quote)</code></h4>
 <pre><code class="language-python">def print_quote(quote):
     &quot;&quot;&quot;
     Prints a single quote to the console.
@@ -164,7 +164,7 @@ def view_quotes(quotes):
     for quote in quotes:
         print_quote(quote)
 </code></pre>
-<h3 id="add_quotequotes-filename"><code>add_quote(quotes, filename)</code></h3>
+<h4 id="add_quotequotes-filename"><code>add_quote(quotes, filename)</code></h4>
 <pre><code class="language-python">def add_quote(quotes, filename):
     &quot;&quot;&quot;
     Adds a new quote to the list of quotes and appends it to a file.
@@ -186,7 +186,7 @@ def view_quotes(quotes):
         file.write('\n')
     print(&quot;Quote added successfully!&quot;)
 </code></pre>
-<h3 id="display_quotesquotes-count"><code>display_quotes(quotes, count)</code></h3>
+<h4 id="display_quotesquotes-count"><code>display_quotes(quotes, count)</code></h4>
 <pre><code class="language-python">def display_quotes(quotes, count):
     &quot;&quot;&quot;
     Displays a specified number of quotes from the provided list.
