@@ -1,7 +1,7 @@
-# Documentation aritmetika [douga19]
+# Documentation Programming Quotes [nom-groupe]
 
-Aritmetika est une petite bibliothèque de calculs arithmétiques en Python. Elle permet de réaliser des opérations de base telles que l'addition, la soustraction, la multiplication et la division.
-
+Programming Quotes est petite application qui permet d'afficher des citations humouristique de programmeurs. 
+    
 ## Membres du groupe
 
 - `initiateur` : [Prin Lito]

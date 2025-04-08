@@ -1,1 +1,9 @@
 site_name: My Docs
+
+nav:
+  - Home: index.md
+  - Getting Started: 
+    - Features: features/features.md
+    - Core Functions: features/functions.md
+
+theme: readthedocs
